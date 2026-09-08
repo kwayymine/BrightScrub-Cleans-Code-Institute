@@ -1,0 +1,21 @@
+{
+  "name": "Bright Scrub Cleans",
+  "short_name": "BrightScrub",
+  "description": "Domestic and commercial cleaning in Birmingham and surrounding areas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a2e5c",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo.png",
+      "sizes": "266x200",
+      "type": "image/png"
+    }
+  ]
+}

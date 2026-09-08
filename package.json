@@ -1,0 +1,9 @@
+{
+  "name": "brightscrub-cleans-distinction",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bright Scrub Cleans user-centred front-end project",
+  "scripts": {
+    "check:site": "node tools/site-check.mjs"
+  }
+}

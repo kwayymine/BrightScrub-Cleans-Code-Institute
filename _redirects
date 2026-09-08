@@ -1,0 +1,21 @@
+# Send unknown URLs to the branded 404 page with a real 404 status
+/*  /404.html  404
+
+# MCP endpoint shortcut
+/mcp  /.netlify/functions/mcp  200
+/mcp/  /.netlify/functions/mcp  200
+
+# Old service routes -> new top-level service pages
+/services/deep-cleaning/*  /deep-cleaning/  301
+/services/end-of-tenancy-cleaning/*  /end-of-tenancy-cleaning/  301
+/services/recurring-home-cleaning/*  /regular-cleaning/  301
+/services/office-commercial-cleaning/*  /office-cleaning/  301
+/services/post-construction-cleaning/*  /after-builders-cleaning/  301
+/services/carpet-upholstery-cleaning/*  /carpet-upholstery-cleaning/  301
+
+# Old area routes -> new cleaners pages
+/areas/birmingham/*  /cleaners-birmingham/  301
+/areas/wolverhampton/*  /cleaners-wolverhampton/  301
+/areas/coventry/*  /cleaners-birmingham/  301
+/areas/solihull/*  /cleaners-birmingham/  301
+/areas/west-midlands/*  /areas/  301

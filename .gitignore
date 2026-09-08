@@ -1,0 +1,12 @@
+# Dependencies and scratch
+work/node_modules/
+work/package-lock.json
+work/netlify-drop/
+outputs/brightscrubcleans-singlefile/
+outputs/brightscrubcleans-singlefile.zip
+__pycache__/
+*.pyc
+
+# Local server PID notes / OS cruft
+.DS_Store
+Thumbs.db

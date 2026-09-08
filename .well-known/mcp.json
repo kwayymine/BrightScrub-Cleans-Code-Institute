@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "brightscrubcleans": {
+      "name": "Bright Scrub Cleans",
+      "description": "Domestic and commercial cleaning across the West Midlands - business info, services, areas, FAQ and contact details for AI agents.",
+      "url": "https://brightscrubcleans.co.uk/mcp",
+      "type": "streamable-http"
+    }
+  }
+}
