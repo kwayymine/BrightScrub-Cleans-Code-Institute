@@ -39,6 +39,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 88px;
+  overflow-x: hidden;
 }
 
 body {
@@ -50,9 +51,12 @@ body {
   background: var(--white);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
-img {
+img,
+video,
+iframe {
   display: block;
   max-width: 100%;
   height: auto;
@@ -2171,6 +2175,10 @@ button {
 
   .hero-actions .btn {
     width: 100%;
+  }
+
+  .btn {
+    white-space: normal;
   }
 
   .stats-grid {
