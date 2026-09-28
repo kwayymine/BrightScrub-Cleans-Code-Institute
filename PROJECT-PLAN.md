@@ -25,11 +25,10 @@
 3. Capture UX and accessibility evidence.
 4. Review the README and remove any remaining placeholders.
 5. Commit the finished work to the new repository.
-6. Deploy to Netlify or GitHub Pages and record the live URL.
+6. Deploy to Vercel, configure the quote-form endpoint, and record the live URL.
 
 ## Assessment boundary
 
 The student must make the final design/content decisions, provide authentic
 research evidence, verify credits and submit the assessed project. This plan
 is a working guide, not a substitute for the student's own assessed evidence.
-

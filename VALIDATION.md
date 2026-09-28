@@ -37,3 +37,10 @@ Run a Lighthouse mobile audit on the deployed homepage and contact page. Save
 the report or screenshots and record the accessibility, best-practices,
 performance and SEO scores in the project journal.
 
+## Vercel form check
+
+Vercel serves this project as a static site and does not process the retained
+Netlify Forms attributes. Before submission, configure a Vercel-compatible
+form or email endpoint, test one valid and one invalid request on the Vercel
+URL, and record the endpoint behaviour here. Do not mark the valid-submission
+test as passed until a real notification or stored request has been verified.

@@ -52,27 +52,32 @@ No third-party code or media has been copied from that repository.
 | `BUGS-FIXES.md` | Marker feedback, fixes and dated evidence log |
 | `VALIDATION.md` | Official HTML/CSS and Lighthouse evidence record |
 
-## Deploy to Netlify
+## Deploy to Vercel
 
-1. Go to https://app.netlify.com/drop and drag this folder onto the page.
-2. Wait for the deploy to finish, then open the generated URL.
-3. In **Site configuration > Forms**, enable form notifications for
-   `quote-request` submissions.
-4. Add your domain under **Domain management**.
+1. Import `kwayymine/BrightScrub-Cleans-Code-Institute` in Vercel.
+2. Use the project root (`./`) and the **Other** framework preset.
+3. Deploy the `main` branch and open the generated URL.
+4. Add a custom domain under **Project settings > Domains** if required.
 
-The deployment headers and form configuration are defined in `netlify.toml`.
+The repository is deployed on Vercel at:
 
-For GitHub Pages, publish the repository as a static site and check every
-navigation path on the generated URL. Netlify is the recommended deployment
-for this build because it supports the quote form configuration in
-`netlify.toml`.
+`https://brightscrub-cleans-code-institute.vercel.app/`
 
-## MCP endpoint
+The quote form markup retains the Netlify-compatible attributes from the
+original build, but Vercel does not process Netlify Forms. Before treating the
+form as production-ready, connect it to a Vercel-compatible email/form service
+and record the endpoint and test result in `VALIDATION.md`. Until then, the
+phone and WhatsApp alternatives remain the reliable contact paths.
+
+The legacy `netlify.toml` file is retained only as historical deployment
+configuration from the original build; it is not used by Vercel.
+
+## Optional MCP endpoint
 
 The site exposes an MCP server at:
 
-- `https://brightscrubcleans.co.uk/mcp`
-- `https://brightscrubcleans.co.uk/.netlify/functions/mcp`
+- `https://brightscrubcleans.co.uk/mcp` (legacy Netlify deployment)
+- `https://brightscrubcleans.co.uk/.netlify/functions/mcp` (legacy Netlify deployment)
 
 AI clients discover it at `https://brightscrubcleans.co.uk/.well-known/mcp.json`.
 It supports `initialize`, `ping`, `tools/list`, `tools/call`,

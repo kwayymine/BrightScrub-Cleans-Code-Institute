@@ -17,7 +17,7 @@ browser results.
 | FAQ | Open one question, then another | Previous answer closes; keyboard focus remains usable | `[ ]` |
 | Gallery | Open and close an image | Dialog has an accessible name and restores focus | `[ ]` |
 | Quote form | Submit empty/invalid values | Native validation prevents submission | `[ ]` |
-| Quote form | Complete valid values and submit on Netlify | Success or useful fallback message is shown | `[ ]` |
+| Quote form | Complete valid values and submit on Vercel | Configured endpoint returns success, or the documented phone/WhatsApp fallback is shown | `[ ]` |
 | Form safety | Fill the honeypot field | Submission is ignored | `[ ]` |
 | Keyboard | Tab through the page | Focus order is logical and visible | `[ ]` |
 | Images | Inspect images without loading CSS | Alternative text communicates purpose | `[ ]` |
