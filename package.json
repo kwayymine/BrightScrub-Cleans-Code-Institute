@@ -4,6 +4,8 @@
   "private": true,
   "description": "Bright Scrub Cleans user-centred front-end project",
   "scripts": {
-    "check:site": "node tools/site-check.mjs"
+    "check:site": "node tools/site-check.mjs",
+    "check:links": "node tools/check-links.mjs",
+    "check": "npm run check:site && npm run check:links"
   }
 }

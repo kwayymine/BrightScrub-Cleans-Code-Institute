@@ -49,6 +49,8 @@ No third-party code or media has been copied from that repository.
 | `UX-DESIGN.md` | User stories, five-plane decisions and accessibility rationale |
 | `TESTING.md` | Repeatable manual, responsive and accessibility test plan |
 | `PROJECT-PLAN.md` | Delivery sequence and distinction-focused checklist |
+| `BUGS-FIXES.md` | Marker feedback, fixes and dated evidence log |
+| `VALIDATION.md` | Official HTML/CSS and Lighthouse evidence record |
 
 ## Deploy to Netlify
 
@@ -101,6 +103,7 @@ contact data.
 - Add authentic user feedback and explain the design changes it caused in
   `UX-DESIGN.md`.
 - Complete `TESTING.md` with dated results, screenshots and any fixes.
+- Complete `BUGS-FIXES.md` and `VALIDATION.md` against the deployed URL.
 - Validate HTML/CSS, test keyboard and mobile layouts, and record a Lighthouse
   audit.
 - Replace draft reviews and the Google verification placeholder with verified
